@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 @import 'tailwindcss';
+
+@theme {
+    --color-dos-bg:     #14161b;
+    --color-dos-text:   #cccccc;
+    --color-dos-white:  #ffffff;
+    --color-dos-green:  #33ff33;
+    --color-dos-amber:  #ffb000;
+    --color-dos-invert: #ff33ff;
+
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+    body {
+        @apply bg-dos-bg text-dos-text font-mono antialiased;
+    }
+
+    ::selection {
+        @apply bg-dos-text text-dos-invert;
+    }
+}
