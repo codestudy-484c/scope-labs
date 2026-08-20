@@ -1,0 +1,24 @@
+[
+    {
+        "id"            : "unmiracle-calculation",
+        "name"          : "unMiracle Calculation",
+        "description"   : "Test your calculation speed skill.",
+        "version"       : "v1.0.0",
+        "releaseYear"   : 2026,
+        "category"      : "Web App",
+        "status"        : "Released",
+        "link"          : "https://umcalc.vercel.app",
+        "isLatest"      : true
+    },
+    {
+        "id"            : "fidgetpal",
+        "name"          : "FigetPal",
+        "description"   : "Play with your pop-up mate TAPPING your phone.",
+        "version"       : "v1.0.1",
+        "releaseYear"   : 2026,
+        "category"      : "Web App",
+        "status"        : "Released",
+        "link"          : "https://fidget-companion.vercel.app",
+        "isLatest"      : false
+    }
+]
