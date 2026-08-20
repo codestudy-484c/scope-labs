@@ -10,6 +10,13 @@
     --color-dos-invert: #ff33ff;
 
     --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+    /*blinking*/
+    --animate-blink: blink 1s step-end infinite;
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
 }
 
 @layer base {

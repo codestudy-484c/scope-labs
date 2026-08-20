@@ -2,10 +2,19 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 
+    import Header from '$lib/components/Header.svelte';
+    import Footer from '$lib/components/Footer.svelte';
+
 	let { children } = $props();
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 <div class="min-h-screen p-4 md:p-8 flex flex-col max-w-4xl mx-auto">
-    {@render children()}
+    <Header />
+
+    <main class="flex-grow flex flex-col">
+        {@render children()}
+    </main>
+
+    <Footer />
 </div>
