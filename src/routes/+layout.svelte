@@ -1,6 +1,6 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.ico';
 
     import Header from '$lib/components/Header.svelte';
     import Footer from '$lib/components/Footer.svelte';
@@ -12,7 +12,7 @@
 <div class="min-h-screen p-4 md:p-8 flex flex-col max-w-4xl mx-auto">
     <Header />
 
-    <main class="flex-grow flex flex-col">
+    <main class="grow flex flex-col">
         {@render children()}
     </main>
 
